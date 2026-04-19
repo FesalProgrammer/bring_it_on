@@ -8,6 +8,11 @@ This new task is performed immediately after the previous one (I Can Win).
 
 1. Add a .gitignore file to the project and configure it to hide files with the extension .db, .log and directories with the names target or bin.
 
+*.db
+*.log
+target/
+bin/
+
 2. Create a feature branch and add two commits to it
 
 3. Merge the feature branch in master
